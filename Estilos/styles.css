@@ -1,0 +1,177 @@
+html
+{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after
+{
+    box-sizing: inherit;
+}
+
+body
+{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #0F8ED3;
+}
+
+/* Imagen de la empresa */
+
+div .imgLogo
+{
+    width: 100%;
+}
+
+img
+{
+    width: 20rem;
+    margin: auto;
+    border-radius: 5rem;
+    display: block;
+    
+}
+
+/* Diseño formulario */
+
+form
+{
+    background-color: azure;
+    width: 75%;
+    border-radius: 3rem;
+    margin: 2rem;
+    padding: 2rem;
+}
+
+/* Titulo del formulario */
+
+.txtTitulo
+{
+    display: flex;
+    align-items: center;
+}
+
+.txtTitulo p
+{
+    color: #ff0101;
+    margin: 1rem;
+}
+
+/* input Nombre y apellido */
+
+.contNombre
+{   
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+/* input Correo */
+
+.contCorreo 
+{
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.contTxtNombre, .contTxtCorreo
+{
+    margin: 1rem;
+}
+
+/* radio Sexo */
+
+.contSexo
+{
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+/* Fecha de nacimiento */
+
+.contFecha
+{
+    margin: 2rem;
+}
+
+.contFecha p
+{
+    font-size: smaller;
+}
+
+/* input Contraceña */
+
+.contContraceña
+{
+    margin: 2rem;
+}
+
+.inputContracena
+{
+    margin-bottom: 1rem;
+}
+
+.lnkConsejos a
+{
+    font-size: smaller;
+    text-decoration: none;
+}
+
+/* input Telefono */
+
+.contTelefono
+{
+    margin: 2rem;
+}
+
+/* check box Condiciones */
+
+.contContrato
+{
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+label
+{
+    font-size: 1.2rem;
+}
+
+/* Boton de Aceptar */
+
+.btnAceptar
+{
+    margin: 2rem;
+}
+
+.btnAceptar input
+{
+    padding: 0.5rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.frFormulario input
+{
+    border: 1px solid #484949;
+}
+
+.frFormulario input:focus
+{
+    border: 1px solid #0bdaf0;
+}
+
+a:hover
+{
+    background-color: gold;
+    color: firebrick;
+}
+
+a:active
+{
+    background-color: forestgreen;
+    color: gold;
+}

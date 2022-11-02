@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="Estilos/styles.css">
+
+</head>
+
+<body>
+    <header>
+
+        <div class="imgLogo">
+
+            <img src="imagenes/Logo.webp">
+
+        </div>
+
+    </header>
+
+    <main>
+        <form class="frFormulario">
+
+            <div class="txtTitulo">
+
+                <h1>Unete a tuenti</h1>
+                <p>*Todos los campos son obligatorios*</p>
+
+            </div>
+
+            <div class="contNombre">
+
+                <div class="contTxtNombre">
+
+                    <label for="txtNombre" class="txtNombre">Nombre</label>
+
+                </div>
+
+                <div class="contInNombre">
+
+                    <input type="text" id="txtNombre" class="inNombre" placeholder="Nombre">
+                    <input type="text" id="txtApellido" class="inApellido" placeholder="Apellido">
+
+                </div>
+
+            </div>
+
+            <div class="contCorreo">
+
+                <div class="contTxtCorreo">
+                    <label for="txtEmail">Correo</label>
+                </div>
+
+                <div class="contInCorreo">
+                    <input type="email" id="txtEmail" placeholder="Correo">
+                </div>
+
+            </div>
+
+            <div class="contSexo">
+                <label for="slcSexo">Sexo</label>
+                <input type="radio" name="Sexo" id="Femenino" value="f">
+                <label for="Femenino">F</label>
+                <input type="radio" name="Sexo" id="Masculino" value="m">
+                <label for="Masculino">M</label>
+            </div>
+
+            <div class="contFecha">
+                <label for="dtFecha">Fecha de Nacimiento</label>
+                <input type="date" id="dtFecha">
+
+                <div>
+                    <p>La edad minima que se permite es 14</p>
+                </div>
+            </div>
+
+            <div class="contContraceña">
+
+                <div class="inputContracena">
+
+                    <label for="pswContraceña">Contraceña</label>
+                    <input type="password" id="pswContraceña">
+
+                </div>
+
+                <div class="lnkConsejos">
+
+                    <a href="https://bit.ly/3DjzhZM">Consejos para colocar una Contraceña</a>
+
+                </div>
+            </div>
+
+            <div class="contTelefono">
+                <label for="telTelefono">Telefono</label>
+                <input type="tel" id="telTelefono">
+            </div>
+
+            <div class="contContrato">
+                <input type="checkbox" id="chbCondiciones">
+                <label for="chbCondiciones">Aceptas las condiciones de esta para esta pagina</label>
+            </div>
+
+            <div class="btnAceptar">
+                <input type="submit" value="Disfruta de la pagina">
+            </div>
+
+        </form>
+    </main>
+</body>
+
+</html>
